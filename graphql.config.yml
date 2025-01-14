@@ -1,0 +1,9 @@
+schema: src/schema.graphql
+documents:
+  - "src/**/*.graphql"
+  - "src/**/*.gql"
+  - "src/**/*.ts"
+  - "src/**/*.tsx"
+extensions:
+  endpoints:
+    url: https://graphql-pokeapi.graphcdn.app/graphql
